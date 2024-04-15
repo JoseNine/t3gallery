@@ -1,6 +1,6 @@
-import Link from "next/link";
-import { posts } from "../server/db/schema";
 import { db } from "~/server/db";
+
+export const dynamic = "force-dynamic";
 
 const mockUrls = [
   // "https://utfs.io/f/fb8c105d-6973-49d1-bfbf-02978636b0db-nm33wo.jpg",
